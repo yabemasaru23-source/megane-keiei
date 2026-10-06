@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="大きなメガネ。左のレンズはくもっていて何が見えるかわからない。右のレンズはすっきりしていて、ゴールテープがはっきり見える。フクロウのミルルが「メガネ、はずしてみよっか」と話している">
+<rect width="800" height="320" fill="var(--sky, #dbe7fb)"/>
+<path d="M0 270 Q200 230 400 262 T800 250 V320 H0Z" fill="var(--leaf-soft, #dcf1e8)"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<circle cx="190" cy="150" r="96" fill="#e9ecf2"/>
+<circle cx="160" cy="120" r="34" fill="#cfd5e0"/><circle cx="215" cy="175" r="40" fill="#cfd5e0"/><circle cx="150" cy="190" r="22" fill="#d9dee7"/>
+<text x="190" y="166" text-anchor="middle" font-size="44" fill="#6b7590" font-family="Zen Maru Gothic, sans-serif" font-weight="700">？</text>
+<circle cx="430" cy="150" r="96" fill="var(--surface, #fff)"/>
+<line x1="372" y1="110" x2="372" y2="200" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<line x1="488" y1="110" x2="488" y2="200" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<path d="M372 140 Q430 156 488 140" fill="none" stroke="var(--warm, #c0583a)" stroke-width="6"/>
+<rect x="398" y="162" width="64" height="26" rx="8" fill="var(--sun, #f2b01e)"/>
+<text x="430" y="181" text-anchor="middle" font-size="14" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">ゴール</text>
+<circle cx="190" cy="150" r="96" fill="none" stroke="var(--ink, #1d2540)" stroke-width="9"/>
+<circle cx="430" cy="150" r="96" fill="none" stroke="var(--ink, #1d2540)" stroke-width="9"/>
+<path d="M286 140 Q310 118 334 140" fill="none" stroke="var(--ink, #1d2540)" stroke-width="9"/>
+<path d="M94 140 L50 120 M526 140 L560 120" stroke="var(--ink, #1d2540)" stroke-width="9"/>
+<text x="190" y="276" text-anchor="middle" font-size="16" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">思いこみ</text>
+<text x="430" y="276" text-anchor="middle" font-size="16" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">本当の姿</text>
+</g>
+<rect x="570" y="34" width="214" height="54" rx="16" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><polygon points="590,86 576,104 608,86" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round"/><rect x="574" y="82" width="206" height="5" fill="var(--surface, #fff)"/><text x="677.0" y="67.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">メガネ、はずしてみよっか</text>
+<g transform="translate(600 120) scale(1.35)"><g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 34 L24 12 L44 26 Z" fill="#8a6446"/>
+    <path d="M90 34 L96 12 L76 26 Z" fill="#8a6446"/>
+    <ellipse cx="60" cy="68" rx="40" ry="44" fill="#9b7653"/>
+    <ellipse cx="60" cy="82" rx="25" ry="26" fill="#f3e3c8"/>
+    <path d="M48 80 q4 4 8 0 M60 88 q4 4 8 0 M50 96 q4 4 8 0" fill="none" stroke="#c9ad85" stroke-width="2"/>
+    <circle cx="43" cy="52" r="15" fill="#fff"/>
+    <circle cx="77" cy="52" r="15" fill="#fff"/>
+    <circle cx="44" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="76" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="46" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="78" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="43" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <circle cx="77" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M56 50 q4 -4 8 0" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M54 64 L60 74 L66 64 Z" fill="#f2b01e"/>
+    <ellipse cx="28" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <ellipse cx="92" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <path d="M22 72 q-6 18 8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M98 72 q6 18 -8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M50 110 v4 M56 110 v4 M64 110 v4 M70 110 v4" stroke="#f2b01e" stroke-width="3"/>
+  </g>
+</g>
+</svg>

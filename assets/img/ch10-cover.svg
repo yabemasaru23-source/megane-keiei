@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="プールの横に「級の表」がはってあり、子どもが次の級を目指して泳いでいる。となりには会社の成長シートがあり、人が1段ずつ階段をのぼっている。ミルルが「次に何ができたら1段上がる？」と聞いている">
+<rect width="800" height="320" fill="var(--sky, #dbe7fb)"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<rect x="30" y="200" width="300" height="96" rx="10" fill="#7fb6e8"/>
+<path d="M40 232 q20 -10 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0" fill="none" stroke="#fff" stroke-width="3"/>
+<circle cx="150" cy="224" r="14" fill="#f3c9a0"/><path d="M136 222 q14 -18 28 0 Z" fill="var(--warm, #c0583a)"/>
+<path d="M170 236 q14 -10 28 0" fill="none" stroke="#f3c9a0" stroke-width="6"/>
+<rect x="60" y="34" width="210" height="150" rx="10" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<text x="165" y="62" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🏊 級の表</text>
+<text x="80" y="92" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">10級　顔を5秒つける ✓</text>
+<text x="80" y="118" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">9級　けのびで5m ✓</text>
+<rect x="72" y="130" width="186" height="26" rx="6" fill="var(--sun-soft, #fdf0cc)"/>
+<text x="80" y="148" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">8級　バタ足10m ← 次！</text>
+<text x="350" y="130" font-size="34" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">＝</text>
+<rect x="410" y="34" width="170" height="120" rx="10" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<text x="495" y="62" text-anchor="middle" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">📋 成長シート</text>
+<rect x="428" y="78" width="134" height="12" rx="4" fill="var(--warm, #c0583a)"/>
+<rect x="428" y="98" width="134" height="12" rx="4" fill="var(--leaf, #2f8f6b)"/>
+<rect x="428" y="118" width="134" height="12" rx="4" fill="#b88a5e"/>
+<path d="M390 296 h50 v-30 h50 v-30 h50 v-30 h50" fill="none" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<circle cx="515" cy="196" r="10" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<path d="M515 206 v18 M515 224 l-8 12 M515 224 l8 10 M515 212 l-10 6 M515 212 l12 -8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+</g>
+<rect x="598" y="22" width="188" height="74" rx="16" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><polygon points="766,94 780,112 748,94" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round"/><rect x="602" y="90" width="180" height="5" fill="var(--surface, #fff)"/><text x="692.0" y="54.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">次に何ができたら</text><text x="692.0" y="76.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">1段上がる？</text>
+<g transform="translate(640 130) scale(1.3)"><g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 34 L24 12 L44 26 Z" fill="#8a6446"/>
+    <path d="M90 34 L96 12 L76 26 Z" fill="#8a6446"/>
+    <ellipse cx="60" cy="68" rx="40" ry="44" fill="#9b7653"/>
+    <ellipse cx="60" cy="82" rx="25" ry="26" fill="#f3e3c8"/>
+    <path d="M48 80 q4 4 8 0 M60 88 q4 4 8 0 M50 96 q4 4 8 0" fill="none" stroke="#c9ad85" stroke-width="2"/>
+    <circle cx="43" cy="52" r="15" fill="#fff"/>
+    <circle cx="77" cy="52" r="15" fill="#fff"/>
+    <circle cx="44" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="76" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="46" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="78" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="43" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <circle cx="77" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M56 50 q4 -4 8 0" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M54 64 L60 74 L66 64 Z" fill="#f2b01e"/>
+    <ellipse cx="28" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <ellipse cx="92" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <path d="M22 72 q-6 18 8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M98 72 q6 18 -8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M50 110 v4 M56 110 v4 M64 110 v4 M70 110 v4" stroke="#f2b01e" stroke-width="3"/>
+  </g>
+</g>
+</svg>

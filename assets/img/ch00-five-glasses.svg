@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-label="よくある5つの思いこみメガネ。自分の席は第1章、約束は第2章、ゴールテープは第4章、点数は第5章、距離と言葉は第7章と第8章ではずす">
+<rect width="800" height="260" rx="18" fill="var(--sky, #dbe7fb)"/>
+<text x="400" y="50" text-anchor="middle" font-size="19" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">よくある5つの思いこみメガネと、はずす章</text>
+<g stroke-linecap="round" stroke-linejoin="round"><g transform="translate(80 0)">
+<circle cx="-30" cy="120" r="30" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<circle cx="30" cy="120" r="30" fill="#e9ecf2" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<path d="M-2 114 q2 -5 4 0" fill="none" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<text x="-30" y="130" text-anchor="middle" font-size="26">🪑</text>
+<path d="M14 112 q16 -12 32 0 M16 130 q14 -8 28 0" fill="none" stroke="#c4cad6" stroke-width="5"/>
+<text x="0" y="190" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">自分の席</text>
+<rect x="-36" y="204" width="72" height="26" rx="13" fill="var(--sun-soft, #fdf0cc)"/>
+<text x="0" y="222" text-anchor="middle" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">第1章</text>
+</g><g transform="translate(240 0)">
+<circle cx="-30" cy="120" r="30" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<circle cx="30" cy="120" r="30" fill="#e9ecf2" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<path d="M-2 114 q2 -5 4 0" fill="none" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<text x="-30" y="130" text-anchor="middle" font-size="26">📒</text>
+<path d="M14 112 q16 -12 32 0 M16 130 q14 -8 28 0" fill="none" stroke="#c4cad6" stroke-width="5"/>
+<text x="0" y="190" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">約束</text>
+<rect x="-36" y="204" width="72" height="26" rx="13" fill="var(--sun-soft, #fdf0cc)"/>
+<text x="0" y="222" text-anchor="middle" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">第2章</text>
+</g><g transform="translate(400 0)">
+<circle cx="-30" cy="120" r="30" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<circle cx="30" cy="120" r="30" fill="#e9ecf2" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<path d="M-2 114 q2 -5 4 0" fill="none" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<text x="-30" y="130" text-anchor="middle" font-size="26">🏁</text>
+<path d="M14 112 q16 -12 32 0 M16 130 q14 -8 28 0" fill="none" stroke="#c4cad6" stroke-width="5"/>
+<text x="0" y="190" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">ゴールテープ</text>
+<rect x="-36" y="204" width="72" height="26" rx="13" fill="var(--sun-soft, #fdf0cc)"/>
+<text x="0" y="222" text-anchor="middle" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">第4章</text>
+</g><g transform="translate(560 0)">
+<circle cx="-30" cy="120" r="30" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<circle cx="30" cy="120" r="30" fill="#e9ecf2" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<path d="M-2 114 q2 -5 4 0" fill="none" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<text x="-30" y="130" text-anchor="middle" font-size="26">💯</text>
+<path d="M14 112 q16 -12 32 0 M16 130 q14 -8 28 0" fill="none" stroke="#c4cad6" stroke-width="5"/>
+<text x="0" y="190" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">点数</text>
+<rect x="-36" y="204" width="72" height="26" rx="13" fill="var(--sun-soft, #fdf0cc)"/>
+<text x="0" y="222" text-anchor="middle" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">第5章</text>
+</g><g transform="translate(720 0)">
+<circle cx="-30" cy="120" r="30" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<circle cx="30" cy="120" r="30" fill="#e9ecf2" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<path d="M-2 114 q2 -5 4 0" fill="none" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<text x="-30" y="130" text-anchor="middle" font-size="26">💬</text>
+<path d="M14 112 q16 -12 32 0 M16 130 q14 -8 28 0" fill="none" stroke="#c4cad6" stroke-width="5"/>
+<text x="0" y="190" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">距離と言葉</text>
+<rect x="-36" y="204" width="72" height="26" rx="13" fill="var(--sun-soft, #fdf0cc)"/>
+<text x="0" y="222" text-anchor="middle" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">第7・8章</text>
+</g></g>
+</svg>

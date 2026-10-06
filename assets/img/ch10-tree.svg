@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-label="成長の木。いちばん下の土が毎日の約束、その上の根が知っておくこと・できること、幹と枝が大事な仕事、いちばん上の実がチームに届けるできあがり。木は下から順に育つ">
+<rect width="800" height="440" rx="18" fill="var(--sky, #dbe7fb)"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 330 H800 V422 a18 18 0 0 1 -18 18 H18 a18 18 0 0 1 -18 -18 Z" fill="#b88a5e"/>
+<path d="M290 330 q-30 30 -70 40 M300 330 q-10 40 -30 70 M310 330 q20 40 60 50 M305 330 q40 18 90 20" fill="none" stroke="#e8d3b0" stroke-width="7"/>
+<path d="M285 330 L292 196 L310 196 L318 330 Z" fill="#8a6446"/>
+<path d="M300 226 q-40 -20 -70 -60 M302 214 q40 -30 80 -50" fill="none" stroke="#8a6446" stroke-width="12"/>
+<circle cx="300" cy="130" r="90" fill="var(--leaf, #2f8f6b)"/>
+<circle cx="230" cy="170" r="50" fill="var(--leaf, #2f8f6b)"/><circle cx="370" cy="165" r="55" fill="var(--leaf, #2f8f6b)"/>
+<circle cx="260" cy="110" r="14" fill="var(--warm, #c0583a)"/><circle cx="330" cy="90" r="14" fill="var(--warm, #c0583a)"/><circle cx="362" cy="150" r="14" fill="var(--warm, #c0583a)"/><circle cx="236" cy="172" r="14" fill="var(--warm, #c0583a)"/><circle cx="300" cy="160" r="14" fill="var(--warm, #c0583a)"/>
+<path d="M376 110 H508" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-dasharray="4 6"/>
+<path d="M320 250 H508" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-dasharray="4 6"/>
+<path d="M398 352 H508" stroke="var(--ink-soft, #545c78)" stroke-width="2" stroke-dasharray="4 6"/>
+<path d="M120 410 H508" stroke="#e8d3b0" stroke-width="2" stroke-dasharray="4 6"/>
+<path d="M60 300 V76" stroke="var(--ink, #1d2540)" stroke-width="3"/><path d="M50 88 l10 -14 l10 14" fill="none" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+</g>
+<g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+<text x="40" y="50" font-size="17" fill="var(--ink, #1d2540)">木は「下から順に」育つ</text>
+<rect x="515" y="86" width="270" height="48" rx="12" fill="var(--surface, #fff)"/><text x="530" y="106" font-size="15" fill="var(--warm, #c0583a)">🍎 実</text><text x="530" y="125" font-size="14" fill="var(--ink, #1d2540)">① チームに届けるできあがり</text>
+<rect x="515" y="226" width="270" height="48" rx="12" fill="var(--surface, #fff)"/><text x="530" y="246" font-size="15" fill="var(--leaf, #2f8f6b)">🌿 幹と枝</text><text x="530" y="265" font-size="14" fill="var(--ink, #1d2540)">② 大事な仕事</text>
+<rect x="515" y="328" width="270" height="48" rx="12" fill="var(--surface, #fff)"/><text x="530" y="348" font-size="15" fill="#8a6446">🌱 根</text><text x="530" y="367" font-size="14" fill="var(--ink, #1d2540)">③ 知っておくこと・できること</text>
+<rect x="515" y="386" width="270" height="46" rx="12" fill="var(--surface, #fff)"/><text x="530" y="405" font-size="15" fill="#8a6446">🟫 土</text><text x="530" y="423" font-size="14" fill="var(--ink, #1d2540)">④ 毎日の約束（全員共通）</text>
+</g>
+</svg>
