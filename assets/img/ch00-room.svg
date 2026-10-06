@@ -3,7 +3,7 @@
 <g transform="translate(20 0)">
 <rect x="0" y="60" width="230" height="170" rx="14" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
 <line x1="0" y1="200" x2="230" y2="200" stroke="var(--ink-soft, #545c78)" stroke-width="2"/>
-<rect x="140" y="140" width="70" height="10" rx="3" fill="var(--sky-ink, #6f86b8)"/><rect x="146" y="150" width="6" height="50" fill="var(--sky-ink, #6f86b8)"/><rect x="198" y="150" width="6" height="50" fill="var(--sky-ink, #6f86b8)"/><rect x="146" y="124" width="20" height="16" fill="var(--warm, #c0583a)" transform="rotate(-12 156 132)"/><rect x="172" y="128" width="26" height="12" fill="var(--sun, #f2b01e)" transform="rotate(8 185 134)"/><rect x="30" y="160" width="60" height="40" rx="4" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="60" y="185" text-anchor="middle" font-size="12" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">おもちゃ</text><text x="30" y="110" font-size="13" fill="var(--warm, #c0583a)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">机の上はそのまま…</text>
+<rect x="140" y="140" width="70" height="10" rx="3" fill="var(--sky-ink, #6f86b8)"/><rect x="146" y="150" width="6" height="50" fill="var(--sky-ink, #6f86b8)"/><rect x="198" y="150" width="6" height="50" fill="var(--sky-ink, #6f86b8)"/><rect x="146" y="124" width="20" height="16" fill="var(--warm, #c0583a)" transform="rotate(-12 156 132)"/><rect x="172" y="128" width="26" height="12" fill="var(--sun, #f2b01e)" transform="rotate(8 185 134)"/><rect x="30" y="160" width="60" height="40" rx="4" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2"/><text x="60" y="185" text-anchor="middle" font-size="12" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">おもちゃ</text><text x="30" y="110" font-size="13" fill="var(--warm, #c0583a)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">机の上はそのまま…</text>
 <text x="115" y="44" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">子どもの「きれい」</text>
 <text x="115" y="258" text-anchor="middle" font-size="14" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">おもちゃを箱に入れた！</text>
 </g>
@@ -16,10 +16,10 @@
 </g>
 <path d="M528 150 h36" stroke="var(--ink-soft, #545c78)" stroke-width="3"/><path d="M556 140 l10 10 l-10 10" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3"/>
 <rect x="580" y="62" width="204" height="168" rx="14" fill="var(--sun-soft, #fdf0cc)" stroke="var(--sun, #f2b01e)" stroke-width="3"/>
-<text x="682" y="92" text-anchor="middle" font-size="16" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🏁 ゴールテープ</text>
-<text x="596" y="124" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">お昼の12時までに</text>
-<text x="596" y="150" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">① 床に物がひとつもない</text>
-<text x="596" y="176" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">② 机の上は教科書だけ</text>
-<text x="596" y="202" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">③ 掃除機をかけ終わる</text>
+<text x="682" y="92" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🏁 ゴールテープ</text>
+<text x="596" y="124" font-size="13" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">お昼の12時までに</text>
+<text x="596" y="150" font-size="13" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">① 床に物がひとつもない</text>
+<text x="596" y="176" font-size="13" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">② 机の上は教科書だけ</text>
+<text x="596" y="202" font-size="13" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">③ 掃除機をかけ終わる</text>
 <text x="682" y="258" text-anchor="middle" font-size="14" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">先にそろえれば、同じ部屋が見える</text>
 </g></svg>

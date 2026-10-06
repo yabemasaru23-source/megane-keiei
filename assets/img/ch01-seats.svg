@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-label="こむぎベーカリーの席の地図。いちばん上が社長。その下に工場長・店長（3人）・事務。工場長の下に職人さん（5人）、店長の下に店員さん（18人）。社長から店員さんへ直接たのむ飛びこえの矢印には✕がついている。報告の道すじは、店員さん→店長→社長の一本道">
+<rect width="800" height="460" rx="18" fill="var(--sky, #dbe7fb)"/>
+<text x="40" y="44" font-size="18" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">席の地図（こむぎベーカリー）</text>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M400 118 V154 M150 154 H650 M150 154 V190 M400 154 V190 M650 154 V190" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<path d="M150 238 V290 M400 238 V290" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<path d="M394 130 l6 -8 l6 8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><path d="M144 250 l6 -8 l6 8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><path d="M394 250 l6 -8 l6 8" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<path d="M472 104 C570 140 570 270 482 312" fill="none" stroke="var(--warm, #c0583a)" stroke-width="3" stroke-dasharray="7 7"/>
+<path d="M494 300 l-12 12 l16 4" fill="none" stroke="var(--warm, #c0583a)" stroke-width="3"/>
+<circle cx="546" cy="209" r="15" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-width="3"/>
+<path d="M539 202 l14 14 M553 202 l-14 14" stroke="var(--warm, #c0583a)" stroke-width="3.5"/>
+</g>
+<rect x="330.0" y="70" width="140" height="48" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="400" y="100" text-anchor="middle" font-size="16" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">社長（1人）</text>
+<rect x="70.0" y="190" width="160" height="48" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="150" y="220" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">工場長（1人）</text>
+<rect x="320.0" y="190" width="160" height="48" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="400" y="220" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店長（3人）</text>
+<rect x="570.0" y="190" width="160" height="48" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="650" y="220" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">事務（1人）</text>
+<rect x="70.0" y="290" width="160" height="48" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="150" y="320" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">職人さん（5人）</text>
+<rect x="320.0" y="290" width="160" height="48" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="400" y="320" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店員さん（18人）</text>
+<g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+<text x="572" y="270" font-size="14" fill="var(--warm, #c0583a)">社長が店員さんに直接</text>
+<text x="572" y="292" font-size="14" fill="var(--warm, #c0583a)">たのむのは ✕（店長を通す）</text>
+</g>
+<rect x="40" y="368" width="720" height="68" rx="14" fill="var(--surface, #fff)"/>
+<text x="62" y="408" font-size="15" fill="var(--leaf, #2f8f6b)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">報告の道すじ</text>
+<g stroke-linecap="round" stroke-linejoin="round">
+<rect x="200" y="384" width="130" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="265.0" y="408" text-anchor="middle" font-size="15" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店員さん</text>
+<path d="M338 402 H392" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/><path d="M384 394 l8 8 l-8 8" fill="none" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/>
+<rect x="400" y="384" width="110" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="455.0" y="408" text-anchor="middle" font-size="15" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店長</text>
+<path d="M518 402 H572" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/><path d="M564 394 l8 8 l-8 8" fill="none" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/>
+<rect x="580" y="384" width="110" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="635.0" y="408" text-anchor="middle" font-size="15" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">社長</text>
+</g>
+<text x="718" y="408" text-anchor="middle" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">一本道</text>
+</svg>

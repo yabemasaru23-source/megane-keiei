@@ -361,3 +361,18 @@ details.guide h2 { display: none; }
 .prose blockquote.tip.owl-myth { background: var(--ng); border-left-color: var(--warm); }
 .prose blockquote.tip.owl-true { background: var(--ok); border-left-color: var(--leaf); }
 .prose blockquote.tip.owl-myth p:first-child, .prose blockquote.tip.owl-true p:first-child { font-family: var(--f-display); }
+
+/* クイズ（使う人のコース） */
+.quiz { display: grid; gap: var(--s-4); }
+.quiz-q { border-top: 1px dashed var(--line); padding-top: var(--s-3); }
+.quiz-q:first-child { border-top: 0; padding-top: 0; }
+.quiz-text { font-weight: 700; margin: 0 0 var(--s-2); }
+.chip.right { background: var(--ok); border-color: var(--leaf); }
+.chip.wrong { background: var(--ng); border-color: var(--warm); }
+.quiz-explain { margin-top: var(--s-2); padding: var(--s-2) var(--s-3); border-radius: 10px; line-height: 1.8; }
+.quiz-explain.ok { background: var(--ok); }
+.quiz-explain.ng { background: var(--ng); }
+.chip.right, .chip.right[aria-pressed="true"] { background: var(--ok); border-color: var(--leaf); color: var(--ink); }
+.chip.wrong, .chip.wrong[aria-pressed="true"] { background: var(--ng); border-color: var(--warm); color: var(--ink); }
+.chip.right[aria-pressed="true"]::before { content: "✓ "; }
+.chip.wrong[aria-pressed="true"]::before { content: "✕ "; }

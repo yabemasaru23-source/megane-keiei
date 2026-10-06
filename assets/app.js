@@ -130,8 +130,14 @@
     }).filter(Boolean).join('\n');
   }
 
+  // 章の呼び名：数字の章は「第N章」、社員コースは「S0」のまま
+  const chNo = id => /^\d+$/.test(id) ? `第${+id}章` : String(id);
+  const chNum = id => /^\d+$/.test(id) ? String(+id) : String(id);
+  function quizScore(w, v) { const qs = w.questions || []; const a = Array.isArray(v) ? v : []; return { ok: qs.filter((q, i) => a[i] === q.answer).length, done: qs.filter((_, i) => a[i] != null).length, total: qs.length }; }
+
   function toText(v, w) {
     if (isEmpty(v)) return '';
+    if (w && w.type === 'quiz') { const q = quizScore(w, v); return `${q.total}問中 ${q.ok}問 正解`; }
     if (w && w.type === 'form') return Array.isArray(v) ? v.map(r => formText(w, r)).join('\n\n') : formText(w, v);
     if (w && w.type === 'mandala' && v.cells) {
       const pf = (w.cell_fields || []).find(f => f.from);
@@ -225,9 +231,9 @@
     const card = el('div', { class: 'card', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'ワーク完了' },
       await mascot(),
       el('h2', null, 'やったね！'),
-      el('p', null, `第${+info.id}章「${info.title}」のワークを、ぜんぶ書きました。思いこみメガネが、またひとつはずれました。`),
+      el('p', null, `${chNo(info.id)}「${info.title}」のワークを、ぜんぶ書きました。思いこみメガネが、またひとつはずれました。`),
       el('div', { class: 'row', style: 'justify-content:center' },
-        next ? el('a', { class: 'btn primary', href: '#ch-' + next.id, onclick: () => close() }, `次は 第${+next.id}章へ`) : el('a', { class: 'btn primary', href: '#blueprint', onclick: () => close() }, 'わが社の成長シートを見る'),
+        next ? el('a', { class: 'btn primary', href: '#ch-' + next.id, onclick: () => close() }, `次は ${chNo(next.id)}へ`) : el('a', { class: 'btn primary', href: '#blueprint', onclick: () => close() }, 'わが社の成長シートを見る'),
         el('button', { type: 'button', class: 'btn ghost', onclick: () => close() }, 'とじる')));
     const ov = el('div', { class: 'celebrate' }, card);
     ov.addEventListener('click', e => { if (e.target === ov) close(); });
@@ -361,6 +367,35 @@
       body.append(t);
       requestAnimationFrame(() => autosize(t));
       return { set: v => { t.value = v; autosize(t); } };
+    },
+    quiz(w, body, commit) {
+      const qs = w.questions || [];
+      const cur = () => Array.isArray(S.a[w.id]) ? S.a[w.id].slice() : qs.map(() => null);
+      const wrap = el('div', { class: 'quiz' });
+      const score = el('p', { class: 'count-note', 'aria-live': 'polite' });
+      const draw = () => {
+        wrap.innerHTML = '';
+        const a = cur();
+        qs.forEach((q, qi) => {
+          const chosen = a[qi];
+          const item = el('div', { class: 'quiz-q' }, el('p', { class: 'quiz-text' }, `Q${qi + 1}. ${q.q}`));
+          const opts = el('div', { class: 'chips', role: 'group', 'aria-label': `Q${qi + 1}` });
+          (q.options || []).forEach((o, oi) => {
+            const cls = 'chip' + (chosen != null && oi === q.answer ? ' right' : '') + (chosen === oi && oi !== q.answer ? ' wrong' : '');
+            opts.append(el('button', { type: 'button', class: cls, 'aria-pressed': String(chosen === oi), onclick: () => { const v = cur(); v[qi] = oi; commit(v); draw(); } }, String(o)));
+          });
+          item.append(opts);
+          if (chosen != null) {
+            const ok = chosen === q.answer;
+            item.append(el('div', { class: 'quiz-explain ' + (ok ? 'ok' : 'ng') }, el('b', null, ok ? '🦉 正解！' : '🦉 おしい！'), ' ', q.explain || ''));
+          }
+          wrap.append(item);
+        });
+        const s = quizScore(w, a);
+        score.textContent = s.done ? `${s.total}問中 ${s.ok}問 正解（こたえた問題：${s.done}問）` : '';
+      };
+      draw(); body.append(wrap, score);
+      return { set: draw };
     },
     select(w, body, commit) {
       const opts = (w.options || []).map(String);
@@ -753,7 +788,8 @@
     const greet = el('div', { class: 'hero-greet' }, await mascot('mascot-big'), el('div', { class: 'bubble' }, 'こんにちは、ミルルです。メガネ、いっしょにはずしてみよっか！'));
     left.prepend(greet);
     left.append(el('div', { class: 'row' },
-      el('a', { class: 'btn primary', href: '#ch-' + next.id }, Object.keys(S.a).length ? `続きから（第${+next.id}章）` : '第0章からはじめる'),
+      el('a', { class: 'btn primary', href: '#ch-' + next.id }, Object.keys(S.a).length ? `続きから（${chNo(next.id)}）` : '第0章からはじめる'),
+      el('a', { class: 'btn', href: '#ch-S0' }, '🌱 社員さん向け（使う人のコース）'),
       el('a', { class: 'btn', href: '#blueprint' }, 'わが社の成長シートを見る')));
     const card = el('div', { class: 'hero-card' });
     card.append(el('h2', null, 'モヤモヤ診断'));
@@ -774,15 +810,15 @@
         const p = progress(chapters[c.id]);
         const done = p.ratio >= .8;
         const cls = 'step' + (c.required ? ' req' : '') + (done ? ' done' : '') + (c.file ? '' : ' soon');
-        const meta = c.file ? (done ? el('span', { class: 'pill done' }, 'できた') : p.done ? `${p.done} ／ ${p.total} 問` : (c.required ? el('span', { class: 'pill req' }, '★必修') : '選択')) : '準備中';
-        const inner = [el('span', { class: 'num' }, done ? '✓' : String(+c.id)), el('span', null, el('span', { class: 't' }, c.title), el('br'), el('span', { class: 'm' }, meta))];
+        const meta = c.file ? (done ? el('span', { class: 'pill done' }, 'できた') : p.done ? `${p.done} ／ ${p.total} 問` : (c.required ? el('span', { class: 'pill req' }, '★必修') : c.stage === 'S' ? '使う人のコース' : '選択')) : '準備中';
+        const inner = [el('span', { class: 'num' }, done ? '✓' : chNum(c.id)), el('span', null, el('span', { class: 't' }, c.title), el('br'), el('span', { class: 'm' }, meta))];
         steps.append(c.file ? el('a', { class: cls, href: '#ch-' + c.id }, inner) : el('div', { class: cls, 'aria-disabled': 'true' }, inner));
       });
       trail.append(el('section', { class: 'stage' }, el('div', { class: 'stage-head' }, el('span', { class: 'ico', 'aria-hidden': 'true' }, STAGE_ICON[st.key] || '📘'), el('b', null, st.name), el('span', null, st.lead)), steps));
     });
 
     app.replaceChildren(hero,
-      el('h2', { style: 'font-size:1.3rem;margin:0 0 .5rem' }, 'つくる人のコースの道のり'),
+      el('h2', { style: 'font-size:1.3rem;margin:0 0 .5rem' }, '道のり（つくる人のコース・使う人のコース）'),
       el('div', { class: 'legend' }, el('span', null, el('span', { class: 'pill req' }, '★必修'), ' この7章で成長シートと運用の手順がそろいます'), el('span', null, el('span', { class: 'pill' }, '選択'), ' 弱いところから選んで進みます')),
       trail);
   }
@@ -795,7 +831,7 @@
     const doc = el('article', { class: 'doc' });
     const stageName = (manifest.stages.find(s => s.key === info.stage) || {}).name || '';
     doc.append(el('header', { class: 'doc-head' },
-      el('div', { class: 'eyebrow' }, `第${+info.id}章 ／ ${stageName}`),
+      el('div', { class: 'eyebrow' }, `${chNo(info.id)} ／ ${stageName}`),
       el('h1', null, m.title),
       m.subtitle ? el('p', { class: 'sub' }, m.subtitle) : null,
       el('div', { class: 'facts' },
@@ -871,8 +907,8 @@
     const idx = avail.findIndex(c => c.id === id);
     const prev = avail[idx - 1], next = avail[idx + 1];
     doc.append(el('nav', { class: 'pager', 'aria-label': '前後の章' },
-      prev ? el('a', { class: 'btn', href: '#ch-' + prev.id }, `← 第${+prev.id}章 ${prev.title}`) : el('span'),
-      next ? el('a', { class: 'btn primary', href: '#ch-' + next.id }, `第${+next.id}章 ${next.title} →`) : el('a', { class: 'btn primary', href: '#blueprint' }, 'わが社の成長シートを見る →')));
+      prev ? el('a', { class: 'btn', href: '#ch-' + prev.id }, `← ${chNo(prev.id)} ${prev.title}`) : el('span'),
+      next ? el('a', { class: 'btn primary', href: '#ch-' + next.id }, `${chNo(next.id)} ${next.title} →`) : el('a', { class: 'btn primary', href: '#blueprint' }, 'わが社の成長シートを見る →')));
 
     // サイド（この章の目次と進み具合）
     const side = el('aside', { class: 'side' });
@@ -891,7 +927,7 @@
     heads.forEach(h => tocList.append(el('li', null, el('a', { href: '#ch-' + id, 'data-t': h.id, onclick: e => { e.preventDefault(); h.scrollIntoView({ behavior: 'smooth', block: 'start' }); } }, h.textContent.replace(/^[①-⑨]\s*/, '')))));
     side.append(tocList);
     const chList = el('ol', { class: 'toc-chapters' });
-    manifest.chapters.filter(c => c.file).forEach(c => chList.append(el('li', null, el('a', { href: '#ch-' + c.id, class: c.id === id ? 'on' : null }, `${+c.id}. ${c.title}`))));
+    manifest.chapters.filter(c => c.file).forEach(c => chList.append(el('li', null, el('a', { href: '#ch-' + c.id, class: c.id === id ? 'on' : null }, `${chNum(c.id)}. ${c.title}`))));
     side.append(el('h3', { class: 'toc-chapters' }, 'ほかの章'), chList);
 
     app.replaceChildren(el('div', { class: 'chapter' }, side, doc));
@@ -911,7 +947,7 @@
       const items = ch.works.filter(w => w.type !== 'display' && !isEmpty(S.a[w.id]));
       if (!items.length) return;
       any = true;
-      const sec = el('section', { class: 'bp-section' }, el('h2', null, `第${+c.id}章　${c.title}`));
+      const sec = el('section', { class: 'bp-section' }, el('h2', null, `${chNo(c.id)}　${c.title}`));
       items.forEach(w => {
         const v = S.a[w.id];
         const item = el('div', { class: 'bp-item' }, el('h3', null, w.label));

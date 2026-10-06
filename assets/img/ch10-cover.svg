@@ -10,7 +10,7 @@
 <text x="80" y="92" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">10級　顔を5秒つける ✓</text>
 <text x="80" y="118" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">9級　けのびで5m ✓</text>
 <rect x="72" y="130" width="186" height="26" rx="6" fill="var(--sun-soft, #fdf0cc)"/>
-<text x="80" y="148" font-size="13" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">8級　バタ足10m ← 次！</text>
+<text x="80" y="148" font-size="13" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">8級　バタ足10m ← 次！</text>
 <text x="350" y="130" font-size="34" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">＝</text>
 <rect x="410" y="34" width="170" height="120" rx="10" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
 <text x="495" y="62" text-anchor="middle" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">📋 成長シート</text>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="左は、子どもたちが全員ボールに集まる「だんごサッカー」。右は、キーパー・うしろ・まん中・前とポジションが決まり、自分の場所に立っているチーム。ミルルが「自分の席、どこかな？」と聞いている">
+<rect width="800" height="320" fill="var(--sky, #dbe7fb)"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<rect x="20" y="118" width="566" height="186" rx="14" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/>
+<line x1="303" y1="118" x2="303" y2="304" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/>
+<path d="M310 186 h12 v56 h-12" fill="none" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+<path d="M84 196 q-10 -14 0 -26 M232 196 q10 -14 0 -26" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5"/>
+<circle cx="128" cy="190" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="121" y="198" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M124 214 v8 M132 214 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><circle cx="150" cy="176" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="143" y="184" width="14" height="16" rx="4" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M146 200 v8 M154 200 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><circle cx="176" cy="180" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="169" y="188" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M172 204 v8 M180 204 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><circle cx="196" cy="198" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="189" y="206" width="14" height="16" rx="4" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M192 222 v8 M200 222 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><circle cx="118" cy="218" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="111" y="226" width="14" height="16" rx="4" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M114 242 v8 M122 242 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><circle cx="142" cy="230" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="135" y="238" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M138 254 v8 M146 254 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><circle cx="170" cy="234" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="163" y="242" width="14" height="16" rx="4" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M166 258 v8 M174 258 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><circle cx="196" cy="228" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="189" y="236" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M192 252 v8 M200 252 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><circle cx="160" cy="232" r="8" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<circle cx="352" cy="192" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="345" y="200" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M348 216 v8 M356 216 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="352" y="242" text-anchor="middle" font-size="12" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">キーパー</text><circle cx="400" cy="144" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="393" y="152" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M396 168 v8 M404 168 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="400" y="194" text-anchor="middle" font-size="12" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">うしろ</text><circle cx="400" cy="240" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="393" y="248" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M396 264 v8 M404 264 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="400" y="290" text-anchor="middle" font-size="12" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">うしろ</text><circle cx="470" cy="192" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="463" y="200" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M466 216 v8 M474 216 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="470" y="242" text-anchor="middle" font-size="12" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">まん中</text><circle cx="535" cy="148" r="8" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="528" y="156" width="14" height="16" rx="4" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><path d="M531 172 v8 M539 172 v8" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="535" y="198" text-anchor="middle" font-size="12" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">前</text><circle cx="556" cy="182" r="7" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<path d="M260 66 h70" stroke="var(--ink-soft, #545c78)" stroke-width="3"/><path d="M320 56 l10 10 l-10 10" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="3"/>
+</g>
+<g font-family="Zen Maru Gothic, sans-serif" font-weight="700">
+<text x="150" y="62" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)">だんごサッカー</text>
+<text x="150" y="88" text-anchor="middle" font-size="14" fill="var(--ink-soft, #545c78)">みんなボールへ</text>
+<text x="446" y="62" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)">ポジションが決まると</text>
+<text x="446" y="88" text-anchor="middle" font-size="14" fill="var(--ink-soft, #545c78)">自分の場所を守る</text>
+</g>
+<rect x="598" y="22" width="188" height="74" rx="16" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><polygon points="766,94 780,112 748,94" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round"/><rect x="602" y="90" width="180" height="5" fill="var(--surface, #fff)"/><text x="692.0" y="54.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">自分の席、</text><text x="692.0" y="76.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">どこかな？</text>
+<g transform="translate(640 130) scale(1.3)"><g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 34 L24 12 L44 26 Z" fill="#8a6446"/>
+    <path d="M90 34 L96 12 L76 26 Z" fill="#8a6446"/>
+    <ellipse cx="60" cy="68" rx="40" ry="44" fill="#9b7653"/>
+    <ellipse cx="60" cy="82" rx="25" ry="26" fill="#f3e3c8"/>
+    <path d="M48 80 q4 4 8 0 M60 88 q4 4 8 0 M50 96 q4 4 8 0" fill="none" stroke="#c9ad85" stroke-width="2"/>
+    <circle cx="43" cy="52" r="15" fill="#fff"/>
+    <circle cx="77" cy="52" r="15" fill="#fff"/>
+    <circle cx="44" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="76" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="46" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="78" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="43" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <circle cx="77" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M56 50 q4 -4 8 0" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M54 64 L60 74 L66 64 Z" fill="#f2b01e"/>
+    <ellipse cx="28" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <ellipse cx="92" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <path d="M22 72 q-6 18 8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M98 72 q6 18 -8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M50 110 v4 M56 110 v4 M64 110 v4 M70 110 v4" stroke="#f2b01e" stroke-width="3"/>
+  </g>
+</g>
+</svg>

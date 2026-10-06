@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="サッカーのコートの横に「手は使わない」というルールの看板が立っている。まん中には「わが社の約束」を書いたノートと、きれいにそろえたくつ。ミルルが「その『ふつう』、紙に書いてある？」と聞いている">
+<rect width="800" height="320" fill="var(--sky, #dbe7fb)"/>
+<path d="M0 286 Q200 262 400 280 T800 272 V320 H0Z" fill="var(--leaf-soft, #dcf1e8)"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<rect x="30" y="150" width="300" height="140" rx="10" fill="var(--leaf, #2f8f6b)"/>
+<rect x="44" y="162" width="272" height="116" rx="4" fill="none" stroke="#fff" stroke-width="3"/>
+<line x1="180" y1="162" x2="180" y2="278" stroke="#fff" stroke-width="3"/>
+<circle cx="180" cy="220" r="24" fill="none" stroke="#fff" stroke-width="3"/>
+<rect x="44" y="196" width="22" height="48" fill="none" stroke="#fff" stroke-width="3"/>
+<circle cx="250" cy="262" r="10" fill="#fff" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<circle cx="276" cy="200" r="11" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<path d="M276 211 v24 M276 235 l-14 20 M276 235 l8 22 M276 218 l-12 10 M276 218 l12 10" fill="none" stroke="var(--ink, #1d2540)" stroke-width="3"/>
+<line x1="180" y1="126" x2="180" y2="150" stroke="var(--ink, #1d2540)" stroke-width="4"/>
+<rect x="60" y="30" width="240" height="96" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<text x="180" y="62" text-anchor="middle" font-size="16" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">⚽ サッカーのルール</text>
+<text x="180" y="102" text-anchor="middle" font-size="22" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">手は使わない</text>
+<rect x="360" y="30" width="200" height="176" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<line x1="376" y1="76" x2="544" y2="76" stroke="var(--ink-soft, #545c78)" stroke-width="2"/>
+<text x="460" y="62" text-anchor="middle" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">📒 わが社の約束</text>
+<text x="378" y="104" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">① 目を見て挨拶</text>
+<text x="378" y="132" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">② 前の日に相談</text>
+<text x="378" y="160" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">③「〇〇の件です」</text>
+<text x="378" y="188" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">…ぜんぶで10個まで</text>
+<rect x="392" y="246" width="16" height="32" rx="8" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="412" y="246" width="16" height="32" rx="8" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="452" y="246" width="16" height="32" rx="8" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="472" y="246" width="16" height="32" rx="8" fill="var(--sky-ink, #6f86b8)" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="512" y="246" width="16" height="32" rx="8" fill="var(--leaf, #2f8f6b)" stroke="var(--ink, #1d2540)" stroke-width="2"/><rect x="532" y="246" width="16" height="32" rx="8" fill="var(--leaf, #2f8f6b)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+</g>
+<text x="472" y="304" text-anchor="middle" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">くつも、そろえて</text>
+<rect x="598" y="22" width="188" height="74" rx="16" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><polygon points="766,94 780,112 748,94" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round"/><rect x="602" y="90" width="180" height="5" fill="var(--surface, #fff)"/><text x="692.0" y="54.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">その「ふつう」、</text><text x="692.0" y="76.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">紙に書いてある？</text>
+<g transform="translate(640 130) scale(1.3)"><g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 34 L24 12 L44 26 Z" fill="#8a6446"/>
+    <path d="M90 34 L96 12 L76 26 Z" fill="#8a6446"/>
+    <ellipse cx="60" cy="68" rx="40" ry="44" fill="#9b7653"/>
+    <ellipse cx="60" cy="82" rx="25" ry="26" fill="#f3e3c8"/>
+    <path d="M48 80 q4 4 8 0 M60 88 q4 4 8 0 M50 96 q4 4 8 0" fill="none" stroke="#c9ad85" stroke-width="2"/>
+    <circle cx="43" cy="52" r="15" fill="#fff"/>
+    <circle cx="77" cy="52" r="15" fill="#fff"/>
+    <circle cx="44" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="76" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="46" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="78" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="43" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <circle cx="77" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M56 50 q4 -4 8 0" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M54 64 L60 74 L66 64 Z" fill="#f2b01e"/>
+    <ellipse cx="28" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <ellipse cx="92" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <path d="M22 72 q-6 18 8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M98 72 q6 18 -8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M50 110 v4 M56 110 v4 M64 110 v4 M70 110 v4" stroke="#f2b01e" stroke-width="3"/>
+  </g>
+</g>
+</svg>

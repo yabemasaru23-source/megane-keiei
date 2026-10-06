@@ -1,23 +1,155 @@
 {
   "stages": [
-    { "key": "0", "name": "はじめに", "lead": "メガネのくもりをはかる" },
-    { "key": "1", "name": "席と約束をそろえる", "lead": "だれが・だれに・何を守る" },
-    { "key": "2", "name": "ゴールと点数をそろえる", "lead": "できあがりとしめきり" },
-    { "key": "3", "name": "人と人の間をそろえる", "lead": "距離・言葉・勝ち方" },
-    { "key": "4", "name": "形にしてまわす", "lead": "成長シートと90日" }
+    {
+      "key": "0",
+      "name": "はじめに",
+      "lead": "メガネのくもりをはかる"
+    },
+    {
+      "key": "1",
+      "name": "席と約束をそろえる",
+      "lead": "だれが・だれに・何を守る"
+    },
+    {
+      "key": "2",
+      "name": "ゴールと点数をそろえる",
+      "lead": "できあがりとしめきり"
+    },
+    {
+      "key": "3",
+      "name": "人と人の間をそろえる",
+      "lead": "距離・言葉・勝ち方"
+    },
+    {
+      "key": "4",
+      "name": "形にしてまわす",
+      "lead": "成長シートと90日"
+    },
+    {
+      "key": "S",
+      "name": "使う人のコース",
+      "lead": "社員さん向け・約1時間半"
+    }
   ],
   "chapters": [
-    { "id": "00", "stage": "0", "title": "思いこみメガネをはずそう", "required": true, "file": "00_思いこみメガネをはずそう.md" },
-    { "id": "01", "stage": "1", "title": "自分の席はどこ？", "required": true, "file": null },
-    { "id": "02", "stage": "1", "title": "チームのルールブック", "required": true, "file": null },
-    { "id": "03", "stage": "1", "title": "任された範囲と使える道具", "required": false, "file": null },
-    { "id": "04", "stage": "2", "title": "ゴールテープを先に引く", "required": true, "file": null },
-    { "id": "05", "stage": "2", "title": "点数は「できあがり」でつける", "required": true, "file": null },
-    { "id": "06", "stage": "2", "title": "「でも・だって」の逃げ道をふさぐ", "required": false, "file": null },
-    { "id": "07", "stage": "3", "title": "上司と部下のちょうどいい距離", "required": false, "file": null },
-    { "id": "08", "stage": "3", "title": "「気持ち」と「事実」を分けて話す", "required": false, "file": null },
-    { "id": "09", "stage": "3", "title": "チームが勝つと自分も勝つ", "required": false, "file": null },
-    { "id": "10", "stage": "4", "title": "わが社の成長シートをつくる", "required": true, "file": "10_わが社の成長シートをつくる.md" },
-    { "id": "11", "stage": "4", "title": "90日まわしてみよう", "required": true, "file": null }
+    {
+      "id": "00",
+      "stage": "0",
+      "title": "思いこみメガネをはずそう",
+      "required": true,
+      "file": "00_思いこみメガネをはずそう.md"
+    },
+    {
+      "id": "01",
+      "stage": "1",
+      "title": "自分の席はどこ？",
+      "required": true,
+      "file": "01_自分の席はどこ.md"
+    },
+    {
+      "id": "02",
+      "stage": "1",
+      "title": "チームのルールブック",
+      "required": true,
+      "file": "02_チームのルールブック.md"
+    },
+    {
+      "id": "03",
+      "stage": "1",
+      "title": "任された範囲と使える道具",
+      "required": false,
+      "file": null
+    },
+    {
+      "id": "04",
+      "stage": "2",
+      "title": "ゴールテープを先に引く",
+      "required": true,
+      "file": "04_ゴールテープを先に引く.md"
+    },
+    {
+      "id": "05",
+      "stage": "2",
+      "title": "点数は「できあがり」でつける",
+      "required": true,
+      "file": "05_点数はできあがりでつける.md"
+    },
+    {
+      "id": "06",
+      "stage": "2",
+      "title": "「でも・だって」の逃げ道をふさぐ",
+      "required": false,
+      "file": null
+    },
+    {
+      "id": "07",
+      "stage": "3",
+      "title": "上司と部下のちょうどいい距離",
+      "required": false,
+      "file": null
+    },
+    {
+      "id": "08",
+      "stage": "3",
+      "title": "「気持ち」と「事実」を分けて話す",
+      "required": false,
+      "file": null
+    },
+    {
+      "id": "09",
+      "stage": "3",
+      "title": "チームが勝つと自分も勝つ",
+      "required": false,
+      "file": null
+    },
+    {
+      "id": "10",
+      "stage": "4",
+      "title": "わが社の成長シートをつくる",
+      "required": true,
+      "file": "10_わが社の成長シートをつくる.md"
+    },
+    {
+      "id": "11",
+      "stage": "4",
+      "title": "90日まわしてみよう",
+      "required": true,
+      "file": "11_90日まわしてみよう.md"
+    },
+    {
+      "id": "S0",
+      "stage": "S",
+      "title": "思いこみメガネってなに？",
+      "required": false,
+      "file": "S0_思いこみメガネってなに.md"
+    },
+    {
+      "id": "S1",
+      "stage": "S",
+      "title": "ルールは「自分を守る」ためにある",
+      "required": false,
+      "file": "S1_ルールは自分を守るためにある.md"
+    },
+    {
+      "id": "S2",
+      "stage": "S",
+      "title": "ゴールテープとしめきりを確かめよう",
+      "required": false,
+      "file": "S2_ゴールテープとしめきりを確かめよう.md"
+    },
+    {
+      "id": "S3",
+      "stage": "S",
+      "title": "報告は「事実」から",
+      "required": false,
+      "file": "S3_報告は事実から.md"
+    },
+    {
+      "id": "S4",
+      "stage": "S",
+      "title": "成長シートの使いかた",
+      "required": false,
+      "file": "S4_成長シートの使いかた.md"
+    }
   ]
 }
