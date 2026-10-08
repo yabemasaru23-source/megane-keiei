@@ -10,7 +10,7 @@
 <circle cx="546" cy="209" r="15" fill="var(--surface, #fff)" stroke="var(--warm, #c0583a)" stroke-width="3"/>
 <path d="M539 202 l14 14 M553 202 l-14 14" stroke="var(--warm, #c0583a)" stroke-width="3.5"/>
 </g>
-<rect x="330.0" y="70" width="140" height="48" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="400" y="100" text-anchor="middle" font-size="16" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">社長（1人）</text>
+<rect x="330.0" y="70" width="140" height="48" rx="12" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="400" y="100" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">社長（1人）</text>
 <rect x="70.0" y="190" width="160" height="48" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="150" y="220" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">工場長（1人）</text>
 <rect x="320.0" y="190" width="160" height="48" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="400" y="220" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店長（3人）</text>
 <rect x="570.0" y="190" width="160" height="48" rx="12" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><text x="650" y="220" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">事務（1人）</text>
@@ -23,11 +23,11 @@
 <rect x="40" y="368" width="720" height="68" rx="14" fill="var(--surface, #fff)"/>
 <text x="62" y="408" font-size="15" fill="var(--leaf, #2f8f6b)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">報告の道すじ</text>
 <g stroke-linecap="round" stroke-linejoin="round">
-<rect x="200" y="384" width="130" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="265.0" y="408" text-anchor="middle" font-size="15" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店員さん</text>
+<rect x="200" y="384" width="130" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="265.0" y="408" text-anchor="middle" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店員さん</text>
 <path d="M338 402 H392" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/><path d="M384 394 l8 8 l-8 8" fill="none" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/>
-<rect x="400" y="384" width="110" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="455.0" y="408" text-anchor="middle" font-size="15" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店長</text>
+<rect x="400" y="384" width="110" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="455.0" y="408" text-anchor="middle" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">店長</text>
 <path d="M518 402 H572" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/><path d="M564 394 l8 8 l-8 8" fill="none" stroke="var(--leaf, #2f8f6b)" stroke-width="3"/>
-<rect x="580" y="384" width="110" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="635.0" y="408" text-anchor="middle" font-size="15" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">社長</text>
+<rect x="580" y="384" width="110" height="36" rx="10" fill="var(--leaf-soft, #dcf1e8)" stroke="var(--leaf, #2f8f6b)" stroke-width="2.5"/><text x="635.0" y="408" text-anchor="middle" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">社長</text>
 </g>
 <text x="718" y="408" text-anchor="middle" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">一本道</text>
 </svg>

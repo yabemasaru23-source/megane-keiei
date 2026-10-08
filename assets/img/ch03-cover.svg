@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="はじめてのおつかい。家の前でお母さんが手をふって見送り、子どもが買い物メモと1000円を持って、やおやさんに向かって歩いている。お母さんの電話には✕がついていて、途中で口を出さないことを表している。フクロウのミルルが「メモとお金、セットで渡そう」と話している">
+<rect width="800" height="320" fill="var(--sky, #dbe7fb)"/>
+<path d="M0 250 Q200 230 400 246 T800 238 V320 H0Z" fill="var(--leaf-soft, #dcf1e8)"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 276 Q300 262 450 274" fill="none" stroke="var(--ink-soft, #545c78)" stroke-width="2.5" stroke-dasharray="3 10"/>
+<rect x="30" y="140" width="130" height="120" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<path d="M20 146 L95 86 L170 146 Z" fill="var(--warm, #c0583a)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<rect x="104" y="196" width="34" height="64" rx="3" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<rect x="46" y="170" width="40" height="34" rx="3" fill="var(--sky, #dbe7fb)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<path d="M204 205.9 L204 237.8" stroke="var(--leaf, #2f8f6b)" stroke-width="13.200000000000001" fill="none"/><path d="M204 237.8 L195.2 262 M204 237.8 L212.8 262" stroke="var(--ink, #1d2540)" stroke-width="3" fill="none"/><path d="M204 211.4 L188.6 229.0 M204 211.4 L219.4 185.0" stroke="#f3c9a0" stroke-width="4" fill="none"/><circle cx="204" cy="193.8" r="12.100000000000001" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<rect x="174" y="212" width="18" height="30" rx="4" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<rect x="178" y="217" width="10" height="16" rx="1" fill="var(--sky, #dbe7fb)"/>
+<circle cx="194" cy="210" r="9" fill="var(--warm, #c0583a)"/>
+<path d="M190 206 l8 8 M198 206 l-8 8" stroke="#fff" stroke-width="2.5"/>
+<path d="M320 222.65 L320 247.3" stroke="var(--sky-ink, #6f86b8)" stroke-width="10.2" fill="none"/><path d="M320 247.3 L313.2 266 M320 247.3 L326.8 266" stroke="var(--ink, #1d2540)" stroke-width="3" fill="none"/><path d="M320 226.9 L308.1 240.5 M320 226.9 L333.6 238.8" stroke="#f3c9a0" stroke-width="4" fill="none"/><circle cx="320" cy="213.3" r="9.35" fill="#f3c9a0" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<path d="M334 240 v12" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<rect x="326" y="250" width="22" height="18" rx="4" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<rect x="226" y="62" width="150" height="88" rx="10" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<text x="240" y="86" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">📝 カレーの材料</text>
+<text x="240" y="108" font-size="12" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">にんじん2本・いも3個</text>
+<text x="240" y="126" font-size="12" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">たまねぎ2個・豚肉300g</text>
+<text x="240" y="144" font-size="12" fill="var(--warm, #c0583a)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">5時までに帰る</text>
+<rect x="258" y="164" width="112" height="30" rx="15" fill="var(--sun, #f2b01e)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<text x="314" y="185" text-anchor="middle" font-size="14" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">お金 1000円</text>
+<rect x="430" y="150" width="140" height="110" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<path d="M420 150 h160 l-10 -30 h-140 Z" fill="var(--leaf, #2f8f6b)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<path d="M450 120 v30 M480 120 v30 M510 120 v30 M540 120 v30" stroke="var(--surface, #fff)" stroke-width="3"/>
+<text x="500" y="112" text-anchor="middle" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">やおや</text>
+<rect x="444" y="214" width="112" height="46" rx="4" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<circle cx="466" cy="232" r="9" fill="var(--warm, #c0583a)"/><circle cx="490" cy="232" r="9" fill="#d9a066"/><circle cx="514" cy="232" r="9" fill="#e8d3b0"/><circle cx="538" cy="232" r="9" fill="var(--warm, #c0583a)"/>
+</g>
+<rect x="598" y="22" width="188" height="74" rx="16" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><polygon points="766,94 780,112 748,94" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round"/><rect x="602" y="90" width="180" height="5" fill="var(--surface, #fff)"/><text x="692.0" y="54.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">メモとお金、</text><text x="692.0" y="76.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">セットで渡そう</text>
+<g transform="translate(624 128) scale(1.3)"><g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 34 L24 12 L44 26 Z" fill="#8a6446"/>
+    <path d="M90 34 L96 12 L76 26 Z" fill="#8a6446"/>
+    <ellipse cx="60" cy="68" rx="40" ry="44" fill="#9b7653"/>
+    <ellipse cx="60" cy="82" rx="25" ry="26" fill="#f3e3c8"/>
+    <path d="M48 80 q4 4 8 0 M60 88 q4 4 8 0 M50 96 q4 4 8 0" fill="none" stroke="#c9ad85" stroke-width="2"/>
+    <circle cx="43" cy="52" r="15" fill="#fff"/>
+    <circle cx="77" cy="52" r="15" fill="#fff"/>
+    <circle cx="44" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="76" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="46" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="78" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="43" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <circle cx="77" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M56 50 q4 -4 8 0" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M54 64 L60 74 L66 64 Z" fill="#f2b01e"/>
+    <ellipse cx="28" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <ellipse cx="92" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <path d="M22 72 q-6 18 8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M98 72 q6 18 -8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M50 110 v4 M56 110 v4 M64 110 v4 M70 110 v4" stroke="#f2b01e" stroke-width="3"/>
+  </g>
+</g>
+</svg>

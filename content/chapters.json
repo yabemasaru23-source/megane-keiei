@@ -58,7 +58,7 @@
       "stage": "1",
       "title": "任された範囲と使える道具",
       "required": false,
-      "file": null
+      "file": "03_任された範囲と使える道具.md"
     },
     {
       "id": "04",
@@ -79,28 +79,28 @@
       "stage": "2",
       "title": "「でも・だって」の逃げ道をふさぐ",
       "required": false,
-      "file": null
+      "file": "06_でもだっての逃げ道をふさぐ.md"
     },
     {
       "id": "07",
       "stage": "3",
       "title": "上司と部下のちょうどいい距離",
       "required": false,
-      "file": null
+      "file": "07_上司と部下のちょうどいい距離.md"
     },
     {
       "id": "08",
       "stage": "3",
       "title": "「気持ち」と「事実」を分けて話す",
       "required": false,
-      "file": null
+      "file": "08_気持ちと事実を分けて話す.md"
     },
     {
       "id": "09",
       "stage": "3",
       "title": "チームが勝つと自分も勝つ",
       "required": false,
-      "file": null
+      "file": "09_チームが勝つと自分も勝つ.md"
     },
     {
       "id": "10",

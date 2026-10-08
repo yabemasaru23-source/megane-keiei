@@ -5,7 +5,7 @@
 <rect x="30" y="70" width="360" height="282" rx="16" fill="var(--surface, #fff)"/>
 <path d="M30 124 V86 a16 16 0 0 1 16 -16 H374 a16 16 0 0 1 16 16 V124 Z" fill="var(--sun-soft, #fdf0cc)"/>
 <rect x="30" y="70" width="360" height="282" rx="16" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
-<text x="210" y="104" text-anchor="middle" font-size="18" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🤝 だれでも守れる約束</text>
+<text x="210" y="104" text-anchor="middle" font-size="18" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🤝 だれでも守れる約束</text>
 <text x="52" y="150" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">どんな約束？</text>
 <text x="52" y="174" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">やる気があれば、だれでも</text>
 <text x="52" y="196" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">今日から守れる</text>
@@ -14,11 +14,11 @@
 <text x="52" y="274" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">・しめきりの前の日に相談</text>
 <text x="52" y="298" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">・報告は「〇〇の件です」から</text>
 <rect x="90" y="314" width="240" height="28" rx="14" fill="var(--sun-soft, #fdf0cc)"/>
-<text x="210" y="333" text-anchor="middle" font-size="14" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">全員共通・最初は10個まで</text>
+<text x="210" y="333" text-anchor="middle" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">全員共通・最初は10個まで</text>
 <rect x="410" y="70" width="360" height="282" rx="16" fill="var(--surface, #fff)"/>
 <path d="M410 124 V86 a16 16 0 0 1 16 -16 H754 a16 16 0 0 1 16 16 V124 Z" fill="var(--leaf-soft, #dcf1e8)"/>
 <rect x="410" y="70" width="360" height="282" rx="16" fill="none" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
-<text x="590" y="104" text-anchor="middle" font-size="18" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🛠️ 仕事の進め方の約束</text>
+<text x="590" y="104" text-anchor="middle" font-size="18" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🛠️ 仕事の進め方の約束</text>
 <text x="432" y="150" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">どんな約束？</text>
 <text x="432" y="174" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">その仕事の手順や決まりごと</text>
 <text x="432" y="196" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">（練習するとできるようになる）</text>
@@ -27,7 +27,7 @@
 <text x="432" y="274" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">・パンの並べ方と値札</text>
 <text x="432" y="298" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">・焼く量の注文のしかた</text>
 <rect x="470" y="314" width="240" height="28" rx="14" fill="var(--leaf-soft, #dcf1e8)"/>
-<text x="590" y="333" text-anchor="middle" font-size="14" fill="#1d2540" font-family="Zen Maru Gothic, sans-serif" font-weight="700">席や仕事ごと・マニュアルへ</text>
+<text x="590" y="333" text-anchor="middle" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">席や仕事ごと・マニュアルへ</text>
 <rect x="30" y="374" width="740" height="56" rx="14" fill="var(--surface, #fff)" stroke="var(--sun, #f2b01e)" stroke-width="3"/>
 </g>
 <text x="400" y="408" text-anchor="middle" font-size="16" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🔍 どちらも「守れた・守れなかった」が、だれが見ても同じにわかる言葉で書く</text>

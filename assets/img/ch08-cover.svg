@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-label="左に理科の観察カード。「記録」の欄には「3日で2cmのびた」「葉は2枚から4枚」と事実が、「思ったこと」の欄には「うれしい！」と気持ちが分けて書いてある。まん中には芽の出た鉢とものさし。その右には、サッカーのビデオ判定の画面。フクロウのミルルが「まず事実、それから気持ち」と話している">
+<rect width="800" height="320" fill="var(--sky, #dbe7fb)"/>
+<path d="M0 286 Q200 268 400 284 T800 278 V320 H0Z" fill="var(--leaf-soft, #dcf1e8)"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<g transform="rotate(-3 165 150)">
+<rect x="40" y="34" width="250" height="236" rx="10" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/>
+<text x="165" y="62" text-anchor="middle" font-size="15" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">🌱 かんさつカード</text>
+<rect x="56" y="76" width="218" height="112" rx="8" fill="var(--leaf-soft, #dcf1e8)"/>
+<text x="68" y="98" text-anchor="start" font-size="13" fill="var(--leaf, #2f8f6b)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">記録（事実）</text>
+<text x="68" y="124" text-anchor="start" font-size="13" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">10月3日 → 10月6日</text>
+<text x="68" y="148" text-anchor="start" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">3日で 2cm のびた</text>
+<text x="68" y="172" text-anchor="start" font-size="13" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">葉は 2枚 → 4枚</text>
+<rect x="56" y="198" width="218" height="58" rx="8" fill="var(--sun-soft, #fdf0cc)"/>
+<text x="68" y="220" text-anchor="start" font-size="13" fill="var(--warm, #c0583a)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">思ったこと（気持ち）</text>
+<text x="68" y="244" text-anchor="start" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">うれしい！</text>
+</g>
+<path d="M312 236 h60 l-8 44 h-44 Z" fill="var(--warm, #c0583a)"/>
+<rect x="308" y="228" width="68" height="12" rx="4" fill="#a8452a"/>
+<path d="M342 228 q-2 -30 0 -52" fill="none" stroke="var(--leaf, #2f8f6b)" stroke-width="4"/>
+<path d="M341 194 q-22 -6 -26 -22 q20 0 26 18 Z M343 184 q20 -10 28 -26 q-22 2 -28 22 Z" fill="var(--leaf, #2f8f6b)"/>
+<rect x="388" y="146" width="20" height="134" rx="3" fill="var(--sun-soft, #fdf0cc)" stroke="var(--ink, #1d2540)" stroke-width="2"/>
+<path d="M388 274 h9" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 262 h5" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 250 h5" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 238 h5" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 226 h5" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 214 h9" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 202 h5" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 190 h5" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 178 h5" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 166 h5" stroke="var(--ink, #1d2540)" stroke-width="1.5"/><path d="M388 154 h9" stroke="var(--ink, #1d2540)" stroke-width="1.5"/>
+<path d="M414 196 h8 v-24 h-8" fill="none" stroke="var(--warm, #c0583a)" stroke-width="2.5"/>
+
+<rect x="430" y="70" width="156" height="112" rx="10" fill="var(--ink, #1d2540)"/>
+<rect x="440" y="80" width="136" height="80" rx="4" fill="var(--leaf, #2f8f6b)"/>
+<path d="M470 80 v80" stroke="#fff" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="520" cy="132" r="9" fill="#fff" stroke="#1d2540" stroke-width="1.5"/>
+<circle cx="492" cy="110" r="5" fill="#ffd866"/><path d="M492 115 v14" stroke="#ffd866" stroke-width="3"/>
+<circle cx="548" cy="104" r="5" fill="#f4845f"/><path d="M548 109 v14" stroke="#f4845f" stroke-width="3"/>
+<path d="M500 182 h16 l6 22 h-28 Z" fill="var(--ink, #1d2540)"/>
+<rect x="476" y="204" width="64" height="8" rx="4" fill="var(--ink, #1d2540)"/>
+
+</g>
+<text x="508" y="58" text-anchor="middle" font-size="14" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">📺 ビデオ判定</text>
+<text x="508" y="240" text-anchor="middle" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">声の大きさでなく</text>
+<text x="508" y="260" text-anchor="middle" font-size="13" fill="var(--ink-soft, #545c78)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">映像で決める</text>
+<text x="428" y="189" text-anchor="start" font-size="13" fill="var(--warm, #c0583a)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">2cm</text>
+<rect x="598" y="26" width="188" height="74" rx="16" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5"/><polygon points="766,98 780,116 748,98" fill="var(--surface, #fff)" stroke="var(--ink, #1d2540)" stroke-width="2.5" stroke-linejoin="round"/><rect x="602" y="94" width="180" height="5" fill="var(--surface, #fff)"/><text x="692.0" y="58.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">まず事実、</text><text x="692.0" y="80.0" text-anchor="middle" font-size="17" fill="var(--ink, #1d2540)" font-family="Zen Maru Gothic, sans-serif" font-weight="700">それから気持ち</text>
+<g transform="translate(636 140) scale(1.25)"><g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 34 L24 12 L44 26 Z" fill="#8a6446"/>
+    <path d="M90 34 L96 12 L76 26 Z" fill="#8a6446"/>
+    <ellipse cx="60" cy="68" rx="40" ry="44" fill="#9b7653"/>
+    <ellipse cx="60" cy="82" rx="25" ry="26" fill="#f3e3c8"/>
+    <path d="M48 80 q4 4 8 0 M60 88 q4 4 8 0 M50 96 q4 4 8 0" fill="none" stroke="#c9ad85" stroke-width="2"/>
+    <circle cx="43" cy="52" r="15" fill="#fff"/>
+    <circle cx="77" cy="52" r="15" fill="#fff"/>
+    <circle cx="44" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="76" cy="53" r="6.5" fill="#1d2540"/>
+    <circle cx="46" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="78" cy="50.5" r="2.2" fill="#fff"/>
+    <circle cx="43" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <circle cx="77" cy="52" r="17" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M56 50 q4 -4 8 0" fill="none" stroke="#1d2540" stroke-width="4"/>
+    <path d="M54 64 L60 74 L66 64 Z" fill="#f2b01e"/>
+    <ellipse cx="28" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <ellipse cx="92" cy="70" rx="5" ry="3.5" fill="#f4845f" opacity=".55"/>
+    <path d="M22 72 q-6 18 8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M98 72 q6 18 -8 30" fill="none" stroke="#7a573b" stroke-width="5"/>
+    <path d="M50 110 v4 M56 110 v4 M64 110 v4 M70 110 v4" stroke="#f2b01e" stroke-width="3"/>
+  </g>
+</g>
+</svg>
